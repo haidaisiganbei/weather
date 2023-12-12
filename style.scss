@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: "楷体";
+  background-image: url("./images/fd163096a22c0e56d0426e5f48645cc6.jpg");
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+
+  ul {
+    flex: 1;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      font-size: 30px;
+      flex: 1;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+       
+
+        &:hover {
+          color: #fff;
+          background: #000;
+        }
+      }
+    }
+  }
+
+  .search {
+    input {
+      width: 300px;
+      height: 50px;
+      border: none;
+      // border-radius: 5px;
+      // border: 1px solid #000;
+      background-color: #fff;
+      padding: 5px;
+      // 移除默认的轮廓
+      outline: none;
+
+      // placeholder颜色
+      &::placeholder {
+        color: #ccc;
+        font-size: 18px;
+      }
+    }
+  }
+}
