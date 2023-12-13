@@ -20,51 +20,73 @@ header {
   margin: 0 auto;
   height: 100px;
 }
+
 header ul {
   flex: 1;
   display: flex;
   align-items: center;
 }
+
 header ul li {
   display: inline-block;
   list-style: none;
   font-size: 30px;
   flex: 1;
 }
+
 header ul li a {
   text-decoration: none;
   color: #000;
   padding: 10px;
 }
+
 header ul li a:hover {
   color: #fff;
   background: #000;
 }
+
+header .search {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
 header .search input {
   width: 300px;
-  height: 50px;
+  height: 34px;
   border: none;
   background-color: #fff;
   padding: 5px;
   outline: none;
 }
+
 header .search input::placeholder {
   color: #ccc;
   font-size: 18px;
+}
+
+header .search img {
+  height: 34px;
+  border-left: 2px solid #ccc;
+  padding-left: 8px;
 }
 
 main {
   width: 1000px;
   margin: 0 auto;
 }
+
 main .section-1 {
   position: relative;
   margin-top: 30px;
 }
+
 main .section-1 img {
   width: 100%;
   object-fit: contain;
 }
+
 main .section-1 .desc {
   position: absolute;
   top: 50%;
@@ -74,30 +96,36 @@ main .section-1 .desc {
   line-height: 42px;
   right: 20px;
 }
+
 main .section-2 {
   position: relative;
   display: flex;
   margin-top: 30px;
   gap: 60px;
 }
+
 main .section-2 img {
   display: inline-block;
   width: calc(50% - 30px);
 }
+
 main .section-4 {
   position: relative;
   display: flex;
   margin-top: 30px;
   gap: 20px;
 }
+
 main .section-4 img {
   flex: 1;
   height: 300px;
 }
+
 main .banner {
   position: relative;
   margin-top: 30px;
 }
+
 main .banner img {
   width: 100%;
   object-fit: contain;
@@ -106,30 +134,35 @@ main .banner img {
 .main {
   width: 1000px;
   margin: 0 auto;
-  background-color: aquamarine;
   background-image: url("../images/bg.jpg");
 }
+
 .main .section {
   margin-bottom: 40px;
 }
+
 .main .banner {
   object-fit: contain;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 .main .flex {
   display: flex;
   justify-content: space-between;
 }
+
 .main .flex .item {
   flex: 1;
   position: relative;
 }
+
 .main .flex .item img {
   width: 100%;
   object-fit: cover;
 }
+
 .main .flex .item .desc {
   position: absolute;
   top: 0;
@@ -143,20 +176,24 @@ main .banner img {
   align-items: center;
   letter-spacing: 4px;
 }
+
 .main .title {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   margin: 20px 0;
 }
+
 .main .article {
   margin-bottom: 20px;
 }
+
 .main .article .sub-title {
   text-align: center;
   font-size: 26px;
   margin: 20px 0;
 }
+
 .main .article .content {
   font-size: 20px;
   line-height: 1.5;

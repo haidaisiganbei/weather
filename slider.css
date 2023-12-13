@@ -87,10 +87,10 @@
 .slider__control-buttons,
 .slider__control-buttons--selected{
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;/*设置为圆形*/
-  margin: 0 5px;
+  margin: 0 8px;
   background-color: #ececea;
   cursor: pointer;
 }
